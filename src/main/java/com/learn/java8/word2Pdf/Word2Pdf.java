@@ -22,10 +22,10 @@ public class Word2Pdf {
         String templatePath = "D:\\test\\receipt_patch.docx";
         String temDir = "D:\\test";
         String fileName = "回执单.docx";
-        String outPutPdf = "D:\\test\\回执单.pdf";
+        String outPutPdf = "C:\\Users\\13381\\Documents\\WeChat Files\\wxid_3wlyr51tz3z622\\FileStorage\\File\\2024-09\\【java开发工程师_北京】孙承祥 3年.pdf";
         //word2pdf(templatePath, temDir, fileName, outPutPdf);
 
-        String outPutWordPath = "D:\\test\\outputword.docx";
+        String outPutWordPath = "D:\\test\\jianli.docx";
         pdf2word(outPutPdf, outPutWordPath);
     }
 
